@@ -19,8 +19,8 @@ class TestUtils(unittest.TestCase):
         result = is_even_and_positive(-4)
         self.assertEqual(result, False)
     #another test case 
-    def test_6(self):
-        result = is_even_and_positive(1)
+    def test_13(self):
+        result = is_even_and_positive(67)
         self.assertEqual(result,True)
 
 
